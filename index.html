@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JEL Custom Woodworks</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+
+  <!-- SKIP NAV -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- NAV -->
+  <nav aria-label="Main navigation">
+    <div class="logo" aria-label="JEL Custom Woodworks home">
+      <img src="logo.png" alt="JEL Custom Woodworks logo" class="logo-img"/>
+      <span class="logo-text">JEL Custom Woodworks</span>
+    </div>
+    <div class="nav-links" id="navLinks" role="list">
+      <a href="#home" role="listitem">Home</a>
+      <a href="#about" role="listitem">About</a>
+      <a href="#contact" role="listitem">Contact</a>
+    </div>
+    <button
+      class="hamburger"
+      id="hamburger"
+      type="button"
+      aria-label="Open navigation menu"
+      aria-expanded="false"
+      aria-controls="mobileMenu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE FULLSCREEN MENU -->
+  <div
+    class="mobile-menu"
+    id="mobileMenu"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Navigation menu">
+    <img src="logo.png" alt="JEL Custom Woodworks logo" class="mobile-logo"/>
+    <nav aria-label="Mobile navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
+  <!-- MAIN -->
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" id="home" aria-label="Hero banner">
+      <h1>Crafted by Hand</h1>
+      <p>Bespoke woodworking pieces built with care, precision, and quality timber.</p>
+      <a href="#about" class="btn">Discover Our Work</a>
+    </section>
+
+    <hr/>
+
+    <!-- ABOUT -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>
+        JEL Custom Woodworks is a small-batch woodworking studio dedicated to crafting
+        heirloom-quality furniture and custom pieces. Every item is handcrafted using
+        sustainably sourced hardwoods — from white oak and walnut to reclaimed barn timber.
+        No shortcuts, no flat-pack. Just honest, lasting work made the old way.
+      </p>
+      <div class="grid" role="list" aria-label="Workshop gallery">
+        <img role="listitem" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600" alt="Woodworking tools laid out in a workshop"/>
+        <img role="listitem" src="https://images.unsplash.com/photo-1622021142947-da7dedc7c39a?w=600" alt="Close-up detail of fine wood grain"/>
+        <img role="listitem" src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=600" alt="Finished handcrafted wooden dining table"/>
+      </div>
+    </section>
+
+    <hr/>
+
+    <!-- CONTACT -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Have a custom project in mind? We'd love to hear about it.</p>
+      <form novalidate aria-label="Contact form">
+
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="name"
+            required
+            aria-required="true"
+            placeholder="Jane Smith"/>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="email"
+            required
+            aria-required="true"
+            placeholder="jane@example.com"/>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea
+            id="message"
+            name="message"
+            required
+            aria-required="true"
+            placeholder="Tell us about your project..."></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="./assets/jel-logo-initials-smooth-rgb.PNG" alt="JEL Custom Woodworks logo" class="footer-logo"/>
+    <p>&#169; 2024 JEL Custom Woodworks &middot; All Rights Reserved</p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
