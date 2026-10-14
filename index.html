@@ -1,13 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>JEL Custom Woodworks</title>
+
+  <!-- Primary SEO -->
+  <title>JEL Custom Woodworks | Custom Furniture & Cabinetry in Nashville, TN</title>
+  <meta name="description" content="JEL Custom Woodworks handcrafts bespoke furniture, cabinetry, and custom wood pieces in Nashville, TN. Family-rooted craftsmanship built to last. Request a custom commission today."/>
+  <meta name="keywords" content="custom woodworking Nashville, handmade furniture Nashville TN, custom cabinetry Nashville, bespoke furniture Tennessee, wood crafts Nashville, custom wood commission, built in closets, kitchen cabnetry"/>
+  <meta name="author" content="JEL Custom Woodworks"/>
+  <link rel="canonical" href="https://www.jelcustomwoodworks.com/"/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="JEL Custom Woodworks | Custom Furniture & Cabinetry in Nashville, TN"/>
+  <meta property="og:description" content="Handcrafted furniture, cabinetry, and custom wood pieces built with care in Nashville, TN. Family-rooted craftsmanship made to last."/>
+  <meta property="og:image" content="https://www.jelcustomwoodworks.com/assets/images/og-image.jpg"/>
+  <meta property="og:image:alt" content="Handcrafted custom woodwork by JEL Custom Woodworks"/>
+  <meta property="og:url" content="https://www.jelcustomwoodworks.com/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="JEL Custom Woodworks"/>
+  <meta property="og:locale" content="en_US"/>
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="JEL Custom Woodworks | Custom Furniture & Cabinetry in Nashville, TN"/>
+  <meta name="twitter:description" content="Handcrafted furniture, cabinetry, and custom wood pieces built with care in Nashville, TN."/>
+  <meta name="twitter:image" content="https://www.jelcustomwoodworks.com/assets/images/og-image.jpg"/>
+  <meta name="twitter:image:alt" content="Handcrafted custom woodwork by JEL Custom Woodworks"/>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="./css/style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Shippori+Mincho:wght@400;600;700&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet"/>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <!-- reCAPTCHA -->
+  <script src="https://www.google.com/recaptcha/api.js?render=6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI" async defer></script>
+
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+
+  <!-- JSON-LD Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "JEL Custom Woodworks",
+    "description": "Handcrafted custom furniture, cabinetry, and bespoke wood pieces built in Nashville, TN. Family-rooted craftsmanship made to last.",
+    "url": "https://www.jelcustomwoodworks.com",
+    "image": "https://www.jelcustomwoodworks.com/assets/images/og-image.jpg",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Nashville",
+      "addressRegion": "TN",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "addressCountry": "US",
+      "addressRegion": "TN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Customer Service",
+      "areaServed": "Nashville, TN"
+    },
+    "sameAs": []
+  }
+  </script>
 </head>
 <body>
 
@@ -16,10 +79,10 @@
 
   <!-- NAV -->
   <nav aria-label="Main navigation">
-    <div class="logo" aria-label="JEL Custom Woodworks home">
-      <img src="logo.png" alt="JEL Custom Woodworks logo" class="logo-img"/>
+    <a href="#home" class="logo" aria-label="JEL Custom Woodworks home">
+      <img src="assets/images/jel-logo-initials-smooth-black.PNG" alt="JEL Custom Woodworks logo" class="logo-img"/>
       <span class="logo-text">JEL Custom Woodworks</span>
-    </div>
+    </a>
     <div class="nav-links" id="navLinks" role="list">
       <a href="#home" role="listitem">Home</a>
       <a href="#about" role="listitem">About</a>
@@ -45,7 +108,7 @@
     role="dialog"
     aria-modal="true"
     aria-label="Navigation menu">
-    <img src="logo.png" alt="JEL Custom Woodworks logo" class="mobile-logo"/>
+    <img src="assets/images/jel-logo-mark-outline-smooth-black.PNG" alt="JEL Custom Woodworks logo" class="mobile-logo"/>
     <nav aria-label="Mobile navigation">
       <a href="#home">Home</a>
       <a href="#about">About</a>
@@ -58,8 +121,8 @@
 
     <!-- HERO -->
     <section class="hero" id="home" aria-label="Hero banner">
-      <h1>Crafted by Hand</h1>
-      <p>Bespoke woodworking pieces built with care, precision, and quality timber.</p>
+      <h1>Custom woodworking that fits your life</h1>
+      <p><i>Handcrafted in Nashville, TN — made with thoughtful design and lasting quality</i></p>
       <a href="#about" class="btn">Discover Our Work</a>
     </section>
 
@@ -69,15 +132,26 @@
     <section id="about" aria-labelledby="about-heading">
       <h2 id="about-heading">About Us</h2>
       <p>
-        JEL Custom Woodworks is a small-batch woodworking studio dedicated to crafting
-        heirloom-quality furniture and custom pieces. Every item is handcrafted using
-        sustainably sourced hardwoods — from white oak and walnut to reclaimed barn timber.
-        No shortcuts, no flat-pack. Just honest, lasting work made the old way.
+        From a family of craftsmen, my passion for woodworking began with my grandfather.
+        Working with him and my uncle at a young age showed me the value of hard work and cemented my love for creating with wood.
+        Today, rooted in Nashville, TN, we make custom cabinetry, furniture, and unique items.
+        We handle design, planning, fabrication and installation -- every detail with care to bring your idea to life. 
+        Honest, lasting work built with thoughtfulness, made for your space.<br><br>
+        <i>If it's made of wood, we work with it.</i>
       </p>
       <div class="grid" role="list" aria-label="Workshop gallery">
-        <img role="listitem" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600" alt="Woodworking tools laid out in a workshop"/>
-        <img role="listitem" src="https://images.unsplash.com/photo-1622021142947-da7dedc7c39a?w=600" alt="Close-up detail of fine wood grain"/>
-        <img role="listitem" src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=600" alt="Finished handcrafted wooden dining table"/>
+        <img role="listitem" src="./assets/images/IMG_4951.jpg" alt="Custom handcrafted woodwork display"/>
+        <img role="listitem" src="./assets/images/IMG_4948.jpg" alt="Bespoke wood furniture piece"/>
+        <img role="listitem" src="./assets/images/IMG_4957.jpg" alt="Custom wood commission detail"/>
+        <img role="listitem" src="./assets/images/IMG_4953.jpg" alt="Handcrafted cabinetry detail"/>
+        <img role="listitem" src="./assets/images/jel-text-smooth-black.PNG" style="opacity: 0.8;" alt="JEL Custom Woodworks branding"/>
+        <img role="listitem" src="./assets/images/IMG_4954.jpg" alt="Custom furniture craftsmanship"/>
+        <img role="listitem" src="./assets/images/IMG_4955.jpg" alt="Woodworking workshop piece"/>
+        <img role="listitem" src="./assets/images/IMG_4956.jpg" alt="Handmade wood art piece"/>
+        <img role="listitem" src="./assets/images/IMG_4949.jpg" alt="Custom wood furniture Nashville"/>
+        <img role="listitem" src="./assets/images/IMG_4952.jpg" alt="Bespoke cabinetry Nashville TN"/>
+        <img role="listitem" src="./assets/images/IMG_1418.jpeg" alt="Custom Barn door"/>
+        <img role="listitem" src="./assets/images/IMG_4958.jpg" alt="Cedar trim woodwork"/>
       </div>
     </section>
 
@@ -123,7 +197,14 @@
             placeholder="Tell us about your project..."></textarea>
         </div>
 
-        <button type="submit">Send Message</button>
+        <input type="hidden" id="recaptchaToken" name="recaptcha_token"/>
+        <p class="recaptcha-note">
+          Protected by reCAPTCHA —
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy</a> &amp;
+          <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Terms</a>
+        </p>
+        <button type="submit" id="submitBtn">Send Message</button>
+
       </form>
     </section>
 
@@ -131,10 +212,11 @@
 
   <!-- FOOTER -->
   <footer>
-    <img src="./assets/jel-logo-initials-smooth-rgb.PNG" alt="JEL Custom Woodworks logo" class="footer-logo"/>
-    <p>&#169; 2024 JEL Custom Woodworks &middot; All Rights Reserved</p>
+    <img src="assets/images/jel-logo-full-smooth-black.PNG" alt="JEL Custom Woodworks logo" class="footer-logo"/>
+    <p>&#169; 2026 JEL Custom Woodworks &middot; Nashville, TN &middot; All Rights Reserved</p>
   </footer>
 
-  <script src="./js/script.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/form.js"></script>
 </body>
 </html>
